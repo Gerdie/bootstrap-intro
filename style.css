@@ -1,0 +1,27 @@
+.awards {
+    margin: 50px;
+}
+
+.navbar, li.active, nav.navbar.navbar-default, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default {
+    background-color: #2ca047;
+    color: white;
+}
+/* Hover styles for .active about link */
+.navbar-nav>.active>a:hover {
+    color: #333 !important;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: #2ca047;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default {
+    color: white;
+}
+
+
+/* Hover styles for OTHER nav links */
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
